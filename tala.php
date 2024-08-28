@@ -136,11 +136,11 @@
                             <img src="assets/img/PRECIEUX1-removebg-preview-removebg-preview.png" alt="" style="margin-left: 170px;">
                         </div>
                         <p>
-                        <p><b><h4><center>Précieux Christ Gloire KOUBONGUISSA ASSAKO</center></h4></b></p>
+                        <p><b><h4><center>Précieux ASSAKO</center></h4></b></p>
                             <b>Développeur web</b> <br>
                             Je suis un développeur web expérimenté et capable de fournir des solutions innovantes et des produits web riches en fonctionnalités. Je peux vous aider à développer et à maintenir votre site web de qualité.
                         </p>
-                        <p>
+                        <!-- <p>
                             <b>Expériences professionnelles</b>
                             <br>
                             <br>
@@ -163,7 +163,7 @@
                             -Préparer des cours en tenant compte du programme de formation et des objectifs définis, en travaillant autour de thématiques précises, en construisant des exercices pour aider les apprenants à acquérir les savoirs.
                             <br>
                             Créer le site web www.cfai.cg ; site officiel du Centre de Formation Accélérée en Informatique.
-                        </p>
+                        </p> -->
                         <br>
                         <br>
                         <div>
@@ -174,7 +174,7 @@
                             <b>Développeur web</b> <br>
                             Je suis un développeur web expérimenté et capable de fournir des solutions innovantes et des produits web riches en fonctionnalités. Je peux vous aider à développer et à maintenir votre site web de qualité.
                         </P>
-                        <p>
+                        <!-- <p>
                             <b>Expériences professionnelles</b>
                             <br>
                             - Développeur de site web <br>
@@ -188,7 +188,7 @@
                             • Commerce alimentaire
                             • e-commerce
 
-                        </p>
+                        </p> -->
                         <br>
                         <br>
                         <div>
@@ -199,7 +199,7 @@
                             <b>Imprimeur-Infographe</b> <br>
                             Je suis un développeur web expérimenté et capable de fournir des solutions innovantes et des produits web riches en fonctionnalités. Je peux vous aider à développer et à maintenir votre site web de qualité.
                         </P>
-                        <p>
+                        <!-- <p>
                             <b>Expériences professionneles</b>
                             <br>
                             • 2024: Designer-Graphiste à l'établissement ARDA BUSINESS
@@ -218,7 +218,7 @@
                             • Graphisme et Design <br>
                             • Infographie <br>
                             • Sage paie <br>
-                        </p>
+                        </p> -->
                         <ul>
                             <li>
                                 <div class="icon">

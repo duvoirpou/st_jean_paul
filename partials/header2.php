@@ -75,7 +75,7 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        <!-- <li class="search"><a href="#"><i class="fa fa-search"></i></a></li> -->
                         <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
                     </ul>
                 </div>        

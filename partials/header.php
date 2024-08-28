@@ -3,10 +3,10 @@
     <header id="home">
 
         <!-- Start Navigation -->
-        <nav class="navbar navbar-default navbar-fixed dark no-background bootsnav inc-border active-border">
+        <nav class="navbar navbar-default  attr-border navbar-sticky bootsnav"><!--  navbar-fixed dark no-background bootsnav inc-border active-border -->
 
             <!-- Start Top Search -->
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row">
                     <div class="top-search">
                         <div class="input-group">
@@ -19,7 +19,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- End Top Search -->
 
             <div class="container">
@@ -27,7 +27,7 @@
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
                     <ul>
-                        <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
+                        <!-- <li class="search"><a href="#"><i class="fa fa-search"></i></a></li> -->
                         <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
                     </ul>
                 </div>        
@@ -105,7 +105,7 @@
                                     
                                 </li>
                                 <li> 
-                                    <span>Précieux KOUBONGUISSA ASSAKO</span>
+                                    <span>Précieux ASSAKO</span>
                                     <div class="pull-right"></div>
                                 </li>
                                 <li> 
