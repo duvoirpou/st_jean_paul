@@ -84,7 +84,7 @@
                                 <div class="col-md-12">
                                     <div class="row">
                                         <div class="form-group">
-                                            <input class="form-control" id="name" name="name" placeholder="Nom" type="text">
+                                            <input class="form-control" id="name" name="name" placeholder="Nom" type="text" required>
                                             <span class="alert-error"></span>
                                         </div>
                                     </div>
