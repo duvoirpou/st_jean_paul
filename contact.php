@@ -129,41 +129,41 @@
                     <div class="col-md-6 col-md-offset-1 info">
                         <h2>Contactez nous</h2>
                         <p>
-                            Often merit stuff first oh up hills as he. Servants contempt as although addition dashwood is procured. Interest in yourself an do of numerous feelings cheerful confined. 
+                        Pour toutes vos questions ou préoccupations, n'hésitez pas à nous contacter. Nous sommes impatients de vous entendre et de vous aider de quelque manière que ce soit.
                         </p>
                         <div class="address-items">
                            <div class="row">
                                 <!-- Item -->
-                                <div class="col-md-6 col-sm-6 equal-height">
+                                <div class="col-md-4 col-sm-6 equal-height">
                                     <div class="item">
                                         <div class="icon"><i class="fas fa-map-marked-alt"></i></div> 
-                                        <span>22 Baker Street,<br> London, United Kingdom,<br> W1U 3BW</span>
+                                        <span>1317 rue Nko, Plateau des 15 ans,<br> Brazzaville, Congo</span>
                                     </div>
                                 </div>
                                 <!-- End Item -->
                                 <!-- Item -->
-                                <div class="col-md-6 col-sm-6 equal-height">
-                                    <div class="item">
-                                        <div class="icon"><i class="fas fa-clock"></i> </div>
-                                        <span>info@yourdomain.com<br>admin@yourdomain.com</span>
-                                    </div>
-                                </div>
-                                <!-- End Item -->
-                                <!-- Item -->
-                                <div class="col-md-6 col-sm-6 equal-height">
-                                    <div class="item">
-                                        <div class="icon"><i class="fas fa-phone"></i></div> 
-                                        <span>+44-20-7328-4499 <br>+99-34-8878-9989</span>
-                                    </div>
-                                </div>
-                                <!-- End Item -->
-                                <!-- Item -->
-                                <div class="col-md-6 col-sm-6 equal-height">
+                                <div class="col-md-4 col-sm-6 equal-height">
                                     <div class="item">
                                         <div class="icon"><i class="fas fa-envelope-open"></i> </div>
-                                        <span>info@yourdomain.com<br>admin@yourdomain.com</span>
+                                        <span>info@yourdomain.com</span>
                                     </div>
                                 </div>
+                                <!-- End Item -->
+                                <!-- Item -->
+                                <div class="col-md-4 col-sm-6 equal-height">
+                                    <div class="item">
+                                        <div class="icon"><i class="fas fa-phone"></i></div> 
+                                        <span>+242 06 859 37 66<!--  <br>+99-34-8878-9989 --></span>
+                                    </div>
+                                </div>
+                                <!-- End Item -->
+                                <!-- Item -->
+                                <!-- <div class="col-md-6 col-sm-6 equal-height">
+                                    <div class="item">
+                                        <div class="icon"><i class="fas fa-clock"></i> </div>
+                                        <span>info@yourdomain.com</span>
+                                    </div>
+                                </div> -->
                                 <!-- End Item -->
                            </div>
                         </div>
@@ -191,7 +191,7 @@
 
     <!-- Start Video BG 
     ============================================= -->
-    <div class="video-bg-area text-center shadow dark text-light video-bg-live bg-fixed" style="background-image: url(assets/img/GettyImages-1081422898.jpg.jpeg);">
+    <!-- <div class="video-bg-area text-center shadow dark text-light video-bg-live bg-fixed" style="background-image: url(assets/img/GettyImages-1081422898.jpg.jpeg);">
         <div class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=hoiGV-N-2Gs',containment:'.video-bg-live', showControls:false, autoPlay:true, zoom:0, loop:true, mute:true, startAt:5, opacity:1, quality:'default'}"></div>
         <div class="container">
             <div class="row">
@@ -201,12 +201,12 @@
                 </div>
             </div>
         </div>
-        <!-- Shape -->
+        
         <div class="wavesshape">
             <img src="assets/img/shape.png" alt="Shape">
         </div>
-        <!-- Shape -->
-    </div>
+        
+    </div> -->
     <!-- End Video BG -->
 
     <?php 
