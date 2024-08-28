@@ -92,7 +92,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" id="email" name="email" placeholder="Email*" type="email">
+                                            <input class="form-control" id="email" name="email" placeholder="Email*" type="email" required>
                                             <span class="alert-error"></span>
                                         </div>
                                     </div>
@@ -106,7 +106,7 @@
                                 <div class="col-md-12">
                                     <div class="row">
                                         <div class="form-group comments">
-                                            <textarea class="form-control" id="comments" name="comments" placeholder="Parlez nous du projet *"></textarea>
+                                            <textarea class="form-control" id="comments" name="comments" placeholder="Parlez nous du projet *" required></textarea>
                                         </div>
                                     </div>
                                 </div>
