@@ -7,11 +7,11 @@
     <div class="top-bar-area inline bg-theme">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 address-info text-left">
+                <div class="col-md-10 address-info text-left">
                     <div class="info box">
                         <ul>
                             <li>
-                                <i class="fas fa-map-marker-alt"></i> Brazzaville, Plateau
+                                <i class="fas fa-map-marker-alt"></i> 1317 rue Nko, Plateau des 15 ans, Brazzaville
                             </li>
                             <li>
                                 <i class="fas fa-envelope-open"></i> Info@gmail.com
@@ -22,12 +22,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 social text-right">
+                <div class="col-md-2 social text-right">
                     <ul>
                         <li>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.facebook.com/jean.pauldeux.98031" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#"><i class="fab fa-twitter"></i></a>
                         </li>
                         <li>
@@ -38,7 +38,7 @@
                         </li>
                         <li>
                             <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
