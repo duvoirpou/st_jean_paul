@@ -9,10 +9,10 @@
     <meta name="description" content="Rescaf - Food & Restauratn Template">
 
     <!-- ========== Page Title ========== -->
-    <title>Rescaf - Food & Restauratn Template</title>
+    <title>St Jean Paul II</title>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/LOG2.png" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
