@@ -39,19 +39,23 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
 
+    <script src="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.js.iife.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/driver.js@1.0.1/dist/driver.css" />
+
 </head>
 
 <body>
 
-    
 
-    <?php 
-        include('partials/header2.php')
-    ?>
+
+    <?php
+    include('partials/header2.php')
+        ?>
 
     <!-- Start Breadcrumb 
     ============================================= -->
-    <div class="breadcrumb-area shadow text-center dark bg-fixed text-light" style="background-image: url(assets/img/cathedrale.jpg);">
+    <div class="breadcrumb-area shadow text-center dark bg-fixed text-light"
+        style="background-image: url(assets/img/cathedrale.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -73,18 +77,19 @@
         <div class="container">
             <div class="row">
                 <div class="contact-box">
-                    
+
                     <!-- Start Form -->
                     <div class="col-md-5 form-box">
                         <div class="form-content">
                             <div class="heading">
                                 <h3>Ecrivez nous</h3>
                             </div>
-                            <form action="assets/mail/contact.php" method="POST" class="contact-form">
+                            <form action="./mail/envoi_email.php" method="POST">
                                 <div class="col-md-12">
                                     <div class="row">
                                         <div class="form-group">
-                                            <input class="form-control" id="name" name="name" placeholder="Nom" type="text" required>
+                                            <input class="form-control" id="name" name="name" placeholder="Nom*"
+                                                type="text" required>
                                             <span class="alert-error"></span>
                                         </div>
                                     </div>
@@ -92,13 +97,22 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" id="email" name="email" placeholder="Email*" type="email" required>
+                                            <input class="form-control" id="email" name="email" placeholder="Email*"
+                                                type="email" required>
                                             <span class="alert-error"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" id="phone" name="phone" placeholder="Phone" type="text">
+                                            <input class="form-control" id="phone" name="phone"
+                                                placeholder="Téléphone*" type="text" required>
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input class="form-control" id="subject" name="subject"
+                                                placeholder="Sujet*" type="text" required>
                                             <span class="alert-error"></span>
                                         </div>
                                     </div>
@@ -106,7 +120,8 @@
                                 <div class="col-md-12">
                                     <div class="row">
                                         <div class="form-group comments">
-                                            <textarea class="form-control" id="comments" name="comments" placeholder="Parlez nous du projet *" required></textarea>
+                                            <textarea class="form-control" id="comments" name="comments"
+                                                placeholder="Message*" required></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -129,14 +144,15 @@
                     <div class="col-md-6 col-md-offset-1 info">
                         <h2>Contactez nous</h2>
                         <p>
-                        Pour toutes vos questions ou préoccupations, n'hésitez pas à nous contacter. Nous sommes impatients de vous entendre et de vous aider de quelque manière que ce soit.
+                            Pour toutes vos questions ou préoccupations, n'hésitez pas à nous contacter. Nous sommes
+                            impatients de vous entendre et de vous aider de quelque manière que ce soit.
                         </p>
                         <div class="address-items">
-                           <div class="row">
+                            <div class="row">
                                 <!-- Item -->
                                 <div class="col-md-4 col-sm-6 equal-height">
                                     <div class="item">
-                                        <div class="icon"><i class="fas fa-map-marked-alt"></i></div> 
+                                        <div class="icon"><i class="fas fa-map-marked-alt"></i></div>
                                         <span>1317 rue Nko, Plateau des 15 ans,<br> Brazzaville, Congo</span>
                                     </div>
                                 </div>
@@ -152,7 +168,7 @@
                                 <!-- Item -->
                                 <div class="col-md-4 col-sm-6 equal-height">
                                     <div class="item">
-                                        <div class="icon"><i class="fas fa-phone"></i></div> 
+                                        <div class="icon"><i class="fas fa-phone"></i></div>
                                         <span>+242 06 859 37 66<!--  <br>+99-34-8878-9989 --></span>
                                     </div>
                                 </div>
@@ -165,7 +181,7 @@
                                     </div>
                                 </div> -->
                                 <!-- End Item -->
-                           </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -182,7 +198,10 @@
                 <div class="google-maps">
                     <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14767.262289338461!2d70.79414485000001!3d22.284975!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1424308883981"></iframe> -->
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.805129092078!2d15.2591722!3d-4.258117200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a32dc0a607419%3A0xd94fbc56f1c6736c!2s1317%20Rue%20Nko%2C%20Brazzaville!5e0!3m2!1sfr!2scg!4v1724844077837!5m2!1sfr!2scg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.805129092078!2d15.2591722!3d-4.258117200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a32dc0a607419%3A0xd94fbc56f1c6736c!2s1317%20Rue%20Nko%2C%20Brazzaville!5e0!3m2!1sfr!2scg!4v1724844077837!5m2!1sfr!2scg"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -209,8 +228,8 @@
     </div> -->
     <!-- End Video BG -->
 
-    <?php 
-        include('partials/footer.php');
+    <?php
+    include('partials/footer.php');
     ?>
 
     <!-- jQuery Frameworks
@@ -232,5 +251,72 @@
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
 
+    <script>
+        const driver = window.driver.js.driver;
+
+        const driverObj = driver();
+
+        const nameEl = document.getElementById("name");
+        const emailEl = document.getElementById("email");
+        const phoneEl = document.getElementById("phone");
+        const subjectEl = document.getElementById("subject");
+        const commentsEl = document.getElementById("comments");
+        const formEl = document.querySelector("form");
+
+        nameEl.addEventListener("focus", () => {
+            driverObj.highlight({
+                element: nameEl,
+                popover: {
+                    title: "Nom",
+                    description: "Entrez votre nom ici",
+                },
+            });
+        });
+
+        emailEl.addEventListener("focus", () => {
+            driverObj.highlight({
+                element: emailEl,
+                popover: {
+                    title: "Email",
+                    description: "Entrez votre email ici",
+                },
+            });
+        });
+
+        phoneEl.addEventListener("focus", () => {
+            driverObj.highlight({
+                element: phoneEl,
+                popover: {
+                    title: "Téléphone",
+                    description: "Entrez votre téléphone ici",
+                },
+            });
+        });
+
+        subjectEl.addEventListener("focus", () => {
+            driverObj.highlight({
+                element: subjectEl,
+                popover: {
+                    title: "Sujet",
+                    description: "Entrez le sujet ici",
+                },
+            });
+        });
+
+        commentsEl.addEventListener("focus", () => {
+            driverObj.highlight({
+                element: commentsEl,
+                popover: {
+                    title: "Message",
+                    description: "Saisissez votre message ici",
+                },
+            });
+        });
+
+        formEl.addEventListener("blur", () => {
+            driverObj.destroy();
+        });
+    </script>
 </body>
+
 </html>
