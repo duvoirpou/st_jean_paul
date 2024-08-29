@@ -316,6 +316,15 @@
         formEl.addEventListener("blur", () => {
             driverObj.destroy();
         });
+
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    const emailInput = document.getElementById('email');
+
+    emailInput.addEventListener('blur', function() {
+        if (!emailRegex.test(emailInput.value)) {
+            alert('L\'email entrée n\'est pas valide.');
+        }
+    });
     </script>
 </body>
 
