@@ -99,14 +99,14 @@
                                         <div class="form-group">
                                             <input class="form-control" id="email" name="email" placeholder="Email*"
                                                 type="email" required>
-                                            <span class="alert-error"></span>
+                                            <span class="alert-error" id="result"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <input class="form-control" id="phone" name="phone"
                                                 placeholder="Téléphone*" type="text" required>
-                                            <span class="alert-error"></span>
+                                            <span class="alert-error" id="resultPhone"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -317,7 +317,16 @@
             driverObj.destroy();
         });
 
-    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    /* const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    const emailInput = document.getElementById('email');
+
+    emailInput.addEventListener('blur', function() {
+        if (!emailRegex.test(emailInput.value)) {
+            alert('L\'email entrée n\'est pas valide.');
+        }
+    }); */
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const emailInput = document.getElementById('email');
 
     emailInput.addEventListener('blur', function() {
@@ -325,6 +334,79 @@
             alert('L\'email entrée n\'est pas valide.');
         }
     });
+
+    const validateEmail = (email) => {
+        return email.match(
+            /* /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ */
+
+            /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+            /* l autorise les formats suivants : 
+                1.  Prettyandsimple@example.com 
+                2.  very.common@example.com 
+                3.  jetable.style.email.with+symbol@example.com 
+                4.  autre.email-with-dash@example.com 
+                9. #!$%&'*+-/=?^_`{}|  ~@exemple.org 
+                6. "()[]:,;@\\\"!#$%&'*+-/=?^_`{}| ~.a"@exemple.org
+                7. " "@example.org (espace entre les guillemets)
+                8. üñîçøðé@example.com (caractères Unicode dans la partie locale)
+                9. üñîçøðé@üñîçøðé.com (Caractères Unicode dans la partie domaine)
+                10. Pelé@example.com (latin)
+                11. δοκιμή@παράδειγμα.δοκιμή (grec)
+                12. 我買@屋企.香港 (chinois)
+                13. 甲斐@黒川.日本 (japonais)
+                14. чебурашка@ящик-с-апельсинами.рф (cyrillique)    
+            */
+        );
+    };
+
+    const validate = () => {
+        const $result = $('#result');
+        const email = $('#email').val();
+        $result.text('');
+
+        if(validateEmail(email)){
+            $result.text(email + ' is valid.');
+            $result.css('color', 'green');
+        } else{
+            $result.text(email + ' is invalid.');
+            $result.css('color', 'red');
+        }
+        return false;
+    }
+
+    $('#email').on('input', validate);
+
+    const phoneRegex = /^[0-9\s\-\+\(\)]+$/;
+    const phoneInput = document.getElementById('phone');
+
+    phoneInput.addEventListener('blur', function() {
+        if (!phoneRegex.test(phoneInput.value)) {
+            alert('Le téléphone entré n\'est pas valide.');
+        }
+    });
+
+    const validatePhone = (phone) => {
+        return phone.match(
+            /^[0-9\s\-\+\(\)]+$/
+        );
+    };
+
+    const validatePhoneInput = () => {
+        const $resultPhone = $('#resultPhone');
+        const phone = $('#phone').val();
+        $resultPhone.text('');
+
+        if(validatePhone(phone)){
+            /* $resultPhone.text(phone + ' est valide.');
+            $resultPhone.css('color', 'green'); */
+        } else{
+            $resultPhone.text(phone + ' est invalide.');
+            $resultPhone.css('color', 'red');
+        }
+        return false;
+    }
+
+    $('#phone').on('input', validatePhoneInput);
     </script>
 </body>
 
